@@ -2,10 +2,13 @@ import Nav from "./Nav";
 
 export default function App() {
   return (
-    <div className="flex">
+    <div className="flex" style={{ height: "100vh", overflowY: "hidden" }}>
       <Nav />
 
-      <div className="flex-1 max-h-screen top-0 right-0 overflow-auto relative">
+      <div
+        className="flex-1 max-h-screen top-0 right-0 overflow-auto relative"
+        style={{ display: "flex" }}
+      >
         <header className="fixed h-16 w-full bg-green-600 p-6 mb-6">
           <div className="bg-gray-500">header</div>
         </header>
