@@ -1,6 +1,49 @@
-/* .fix {
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-} */
+.items {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.items li {
+  margin-bottom: 2rem;
+}
+
+.items a {
+  font-size: 18px;
+}
+
+.items .list-item {
+  display: flex;
+  align-items: center;
+}
+.items .icon {
+  margin-right: 1rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.name {
+  margin-left: 1rem;
+}
+
+.h2 {
+  margin-left: 2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  font-size: 25px;
+}
+
+.header {
+  display: flex;
+}
+
+.header .searchbar {
+  margin-left: 24rem;
+}
+
+.header .user {
+  margin-left: 24rem;
+}
